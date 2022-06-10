@@ -1,0 +1,29 @@
+$black-color: black;
+
+
+.top-block {
+	border: 1px solid $black-color;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__text {
+		flex-basis: 450px;
+		height: 80px;
+		color: red;
+		border-right: 1px solid red;
+		text-align: center;
+		vertical-align: middle;
+
+		@media (max-width: 1440px) {
+			& {
+				color: orange;
+			}
+		}
+	}
+
+	&__text.active:hover {
+		color: $black-color;
+	}
+}

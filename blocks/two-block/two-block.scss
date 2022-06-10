@@ -1,0 +1,42 @@
+@import 'swiper/swiper.scss';
+
+
+
+.block {
+	max-width: 600px;
+	overflow: hidden;
+	border: 1px solid olive;
+}
+
+.dsa {}
+
+.swiper-slide {
+	padding: 20px;
+	background-color: orange;
+}
+
+// .swiper {
+// 	width: 600px;
+// 	height: 300px;
+// 	// overflow: hidden;
+// 	border: 1px solid red;
+// }
+
+.ds {
+	display: flex;
+}
+
+.swiper-button-prev {
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.swiper-button-next {
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+}
