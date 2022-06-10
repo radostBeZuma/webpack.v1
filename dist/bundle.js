@@ -15,7 +15,7 @@
   \***************************************/
 /***/ (() => {
 
-eval("document.addEventListener(\"DOMContentLoaded\", () => {\r\n\tconst block = \"top-block\";\r\n\r\n\tlet text = document.querySelector(`.${block}__text`);\r\n\r\n\ttext.addEventListener(\"click\", () => {\r\n\t\talert(\"Yes\");\r\n\t});\r\n});\n\n//# sourceURL=webpack://webpack-1.v/./blocks/top-block/top-block.js?");
+eval("document.addEventListener(\"DOMContentLoaded\", () => {\r\n\tconst block = \"top-block\";\r\n\r\n\tlet text = document.querySelector(`.${block}__text`);\r\n\r\n\ttext.addEventListener(\"click\", () => {\r\n\t\talert(\"Yes\");\r\n\t});\r\n});w\n\n//# sourceURL=webpack://webpack-1.v/./blocks/top-block/top-block.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("document.addEventListener(\"DOMContentLoaded\", () => {\r\n\tconst block =
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ \"./node_modules/swiper/swiper-bundle.esm.js\");\n// import Swiper JS\r\n\r\n\r\n\r\n\r\n// import \"swiper/components/navigation/navigation.scss\";\r\n\r\ndocument.addEventListener(\"DOMContentLoaded\", () => {\r\n\r\n\tconst swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.swiper', {\r\n\t\t// Optional parameters\r\n\t\t// direction: 'vertical',\r\n\t\tloop: true,\r\n\r\n\t\t// If we need pagination\r\n\t\tpagination: {\r\n\t\t\tel: '.swiper-pagination',\r\n\t\t},\r\n\r\n\t\t// Navigation arrows\r\n\t\tnavigation: {\r\n\t\t\tnextEl: '.swiper-button-next',\r\n\t\t\tprevEl: '.swiper-button-prev',\r\n\t\t},\r\n\r\n\t\t// And if we need scrollbar\r\n\t\tscrollbar: {\r\n\t\t\tel: '.swiper-scrollbar',\r\n\t\t},\r\n\t});\r\n});\r\n\r\n\r\n\n\n//# sourceURL=webpack://webpack-1.v/./blocks/two-block/two-block.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ \"./node_modules/swiper/swiper-bundle.esm.js\");\n// import Swiper JS\r\n\r\n\r\ndocument.addEventListener(\"DOMContentLoaded\", () => {\r\n\r\n\tconst swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.swiper', {\r\n\t\t// Optional parameters\r\n\t\t// direction: 'vertical',\r\n\t\tloop: true,\r\n\r\n\t\t// If we need pagination\r\n\t\tpagination: {\r\n\t\t\tel: '.swiper-pagination',\r\n\t\t},\r\n\r\n\t\t// Navigation arrows\r\n\t\tnavigation: {\r\n\t\t\tnextEl: '.swiper-button-next',\r\n\t\t\tprevEl: '.swiper-button-prev',\r\n\t\t},\r\n\r\n\t\t// And if we need scrollbar\r\n\t\tscrollbar: {\r\n\t\t\tel: '.swiper-scrollbar',\r\n\t\t},\r\n\t});\r\n});\r\n\r\n\r\n\n\n//# sourceURL=webpack://webpack-1.v/./blocks/two-block/two-block.js?");
 
 /***/ }),
 

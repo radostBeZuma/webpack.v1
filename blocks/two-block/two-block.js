@@ -1,10 +1,6 @@
 // import Swiper JS
 import Swiper from 'swiper/bundle';
 
-
-
-// import "swiper/components/navigation/navigation.scss";
-
 document.addEventListener("DOMContentLoaded", () => {
 
 	const swiper = new Swiper('.swiper', {
